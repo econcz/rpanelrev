@@ -1,0 +1,24 @@
+Package: rpanelrev
+Title: Reverse the Order of Values of Time Series and Multidimensional Panels
+Version: 1.0.0
+Authors@R: c(
+        person("Ilya", "Bolotov", email = "ilya.bolotov@vse.cz",
+                        role = c("aut", "cre"),
+                        comment = c(ORCID = "0000-0003-1148-7144"))
+    )
+Description: Reverses the order of values of selected variables in time series
+    and multidimensional panels, either by replacing the original values or by
+    creating new variables with prefixed names. Optionally evaluates
+    user-supplied pre-estimation, estimation, and post-estimation functions
+    using the transformed data.
+Language: en-US
+License: MIT + file LICENSE
+Encoding: UTF-8
+Depends: R (>= 4.3)
+Suggests:
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+URL: https://github.com/econcz/rpanelrev
+BugReports: https://github.com/econcz/rpanelrev/issues
+Roxygen: list(markdown = TRUE)
+Config/roxygen2/version: 8.0.0
